@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+    width: 100%;
+    background: url(pictures/pexels-fox-1172675.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 950px;
+}
+
