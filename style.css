@@ -1,0 +1,189 @@
+html, *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100px;
+    color: orange;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li{
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 25px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    padding: 20px 0;
+}
+
+header ul li:hover {
+    color: orangered;
+    border-bottom: 2px solid orangered;
+}
+
+header a {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+section#about{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to right, rgba(0,0,0,0.7), #fff);
+}
+
+section div.intro{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+section div.image{
+    width: 50%;
+    text-align: center;
+}
+
+section div.image img{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#about .intro h1{
+    font-size: 50px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+#about .intro p{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/* education */
+section#education{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to left, rgba(0,0,0,0.7), #fff);
+}
+
+#education .school h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: orangered;
+}
+
+div.school div.uni h4{
+    font-size: 35px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+div.school div.seco h4{
+        font-size: 35px;
+        letter-spacing: 3px;
+        margin-bottom: 20px;
+}
+
+div.uni{
+    margin-bottom: 70px;
+}
+
+div.uni ul li, div.seco ul li{
+    font-size: 25px;
+}
+
+
+section#education div.school{
+    text-align: center;
+}
+
+/*experience*/
+section#experience{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to right, rgba(0,0,0,0.7), #fff);
+
+}
+
+#experience .work h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: orangered;
+}
+
+.work .farmers h4{
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.work .ktda h4{
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#experience div.work{
+    margin-left: 30px;
+    text-align: center;
+}
+
+.work .farmers ul li, .work .ktda ul li{
+    list-style: none;
+    font-size: 25px;
+}
+
+.work .farmers{
+    margin-bottom: 20px;
+}
+
+/*footer*/
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer{
+    min-height: 100px;
+    align-items: center;
+}
+
+footer div.contacts a img{
+    width: 30%;
+     height: 50px;
+     width: 40px;
+     object-fit: cover;
+     border-radius: 10px;
+}
+
+
+footer div img:hover {
+    color: orangered;
+    border-bottom: 2px solid orangered;
+}
